@@ -1,0 +1,17 @@
+{
+    "name": "vivomedia-neos/partial-render",
+    "type": "neos-package",
+    "description": "",
+    "require": {
+        "neos/neos": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VIVOMEDIA\\PartialRender\\": "Classes"
+        }
+    },
+    "extra": {
+        "applied-flow-migrations": [
+        ]
+    }
+}

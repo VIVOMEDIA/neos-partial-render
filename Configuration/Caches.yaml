@@ -1,0 +1,4 @@
+VIVOMEDIA_Render_PathsCache:
+  backendOptions:
+    defaultLifetime: 0
+  persistent: true

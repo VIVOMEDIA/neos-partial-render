@@ -1,0 +1,18 @@
+include: ./**/*.fusion
+
+prototype(Neos.Fusion:GlobalCacheIdentifiers).renderPartialKey = ${request.arguments.renderPartialKey}
+
+# Prevents search engines from indexing the partly rendered document content
+prototype(VIVOMEDIA.PartialRender:UnindexedResponse) < prototype(Neos.Fusion:Http.Message) {
+    httpResponseHead.headers {
+        X-Robots-Tag = 'noindex, follow'
+    }
+    content = VIVOMEDIA.PartialRender:PartialRenderer
+
+}
+
+root.partialRender {
+    @position = 'start'
+    condition = ${request.arguments.renderPartialKey}
+    renderer = VIVOMEDIA.PartialRender:UnindexedResponse
+}

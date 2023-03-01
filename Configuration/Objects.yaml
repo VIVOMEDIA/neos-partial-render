@@ -1,0 +1,19 @@
+VIVOMEDIA\PartialRender\Fusion\RenderPartialKeyImplementation:
+  properties:
+    pathsCache:
+      object:
+        factoryObjectName: Neos\Flow\Cache\CacheManager
+        factoryMethodName: getCache
+        arguments:
+          1:
+            value: VIVOMEDIA_Render_PathsCache
+
+VIVOMEDIA\PartialRender\Fusion\RenderPartialKeyResolverImplementation:
+  properties:
+    pathsCache:
+      object:
+        factoryObjectName: Neos\Flow\Cache\CacheManager
+        factoryMethodName: getCache
+        arguments:
+          1:
+            value: VIVOMEDIA_Render_PathsCache

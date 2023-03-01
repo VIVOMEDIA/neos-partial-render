@@ -1,0 +1,18 @@
+prototype(VIVOMEDIA.PartialRender:PartialRenderer) {
+    @class = 'VIVOMEDIA\\PartialRender\\Fusion\\PartialRendererImplementation'
+
+    renderPartialKey = VIVOMEDIA.PartialRender:RenderPartialKeyResolver {
+        renderPartialKey = ${request.arguments.renderPartialKey}
+    }
+
+    node = ${q(documentNode).find("#" + this.renderPartialKey.nodeIdentifier).get(0)}
+    renderPath = ${this.renderPartialKey.renderPath}
+
+    @cache {
+        mode = 'uncached'
+        context {
+            1 = 'documentNode'
+            2 = 'node'
+        }
+    }
+}

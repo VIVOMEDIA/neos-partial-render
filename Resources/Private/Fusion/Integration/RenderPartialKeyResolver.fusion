@@ -1,0 +1,5 @@
+prototype(VIVOMEDIA.PartialRender:RenderPartialKeyResolver) {
+    @class = 'VIVOMEDIA\\PartialRender\\Fusion\\RenderPartialKeyResolverImplementation'
+
+    renderPartialKey = ${null}
+}

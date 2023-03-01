@@ -1,0 +1,5 @@
+prototype(VIVOMEDIA.PartialRender:RenderPartialKey) {
+    @class = 'VIVOMEDIA\\PartialRender\\Fusion\\RenderPartialKeyImplementation'
+
+    node = ${node}
+}
