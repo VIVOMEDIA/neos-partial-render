@@ -1,6 +1,6 @@
 # VIVOMEDIA.PartialRender
 
-Inspired by (Psmb.Ajaxify)[https://github.com/psmb/Psmb.Ajaxify]
+Inspired by [Psmb.Ajaxify](https://github.com/psmb/Psmb.Ajaxify)
 
 ## Basic usage
 
