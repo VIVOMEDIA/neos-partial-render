@@ -2,6 +2,7 @@
     "name": "vivomedia-neos/partial-render",
     "type": "neos-package",
     "description": "",
+    "license": "MIT",
     "require": {
         "neos/neos": "~7.0.0 || ~8.0.0"
     },
