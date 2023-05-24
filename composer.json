@@ -4,7 +4,7 @@
     "description": "",
     "license": "MIT",
     "require": {
-        "neos/neos": "~7.0.0 || ~8.0.0"
+        "neos/neos": "^7.0.0 || ^8.0.0"
     },
     "autoload": {
         "psr-4": {
