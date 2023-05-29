@@ -2,6 +2,12 @@
 
 Inspired by [Psmb.Ajaxify](https://github.com/psmb/Psmb.Ajaxify)
 
+## Install
+
+```
+composer require vivomedia/neos-partial-render
+```
+
 ## Basic usage
 
 ```
