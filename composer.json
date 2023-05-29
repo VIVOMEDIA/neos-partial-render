@@ -1,5 +1,5 @@
 {
-    "name": "vivomedia-neos/partial-render",
+    "name": "vivomedia/neos-partial-render",
     "type": "neos-package",
     "description": "",
     "license": "MIT",
